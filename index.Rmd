@@ -10,4 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<center><a href='http://twitter.com/whyRconf'><i class='fa fa-twitter'></i></a>&nbsp;&nbsp;<a href='http://facebook.com/whyRconf/'><i class='fa fa-facebook'></i></a>&nbsp;&nbsp;<a href='https://github.com/WhyRFoundation'><i class='fa fa-github'></i></a>&nbsp;&nbsp;<br></center>
+<center><a href='http://twitter.com/whyRconf'><i class='fa fa-twitter'></i></a>&nbsp;&nbsp;<a href='http://facebook.com/whyRconf/'><i class='fa fa-facebook'></i></a>&nbsp;&nbsp;<a href='https://github.com/WhyRFoundation'><i class='fa fa-github'></i></a>&nbsp;&nbsp;<br>
+
+[[Code of Conduct 2019]](https://whyr.pl/2019/coc/) <br>
+[[DETAILS]](https://whyr.pl/2019/onepager1.jpg)</center>
