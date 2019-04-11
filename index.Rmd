@@ -16,4 +16,5 @@ knitr::opts_chunk$set(echo = TRUE)
 [[Submit Talk]](https://whyr.pl/2019/submit/) <br>
 [[Registration and Call for Papers Details]](https://whyr.pl/2019/timeline_small.jpg) <br> 
 [[Code of Conduct 2019]](https://whyr.pl/2019/coc/)
-[[Conference Details]](https://whyr.pl/2019/onepager_small.jpg)</center>
+[[Conference Details]](https://whyr.pl/2019/onepager_small.jpg)<br>
+[[MEETINGS]](https://whyr.pl/2019/premeetings.jpg)</center> 
