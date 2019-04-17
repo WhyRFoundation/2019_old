@@ -65,7 +65,7 @@ Adam Mickiewicz University
 
 # Code of Conduct
 
-<div>
+<div class="coc">
 Source: our code of conduct was adapted from the <a href="https://user2017.brussels/code-of-conduct/">useR! 2017 code of conduct</a>.
 
 
