@@ -2,6 +2,11 @@
 output: 
   html_document:
     css: background.css
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 1
+    number_sections: false
 ---
 
 ```{r setup, include=FALSE}
@@ -10,11 +15,72 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<center><a href='http://twitter.com/whyRconf'><i class='fa fa-twitter'></i></a>&nbsp;&nbsp;<a href='http://facebook.com/whyRconf/'><i class='fa fa-facebook'></i></a>&nbsp;&nbsp;<a href='https://github.com/WhyRFoundation'><i class='fa fa-github'></i></a>&nbsp;&nbsp;<br>
+<center>
 
-[[Register]](https://whyr.pl/2019/register/)
-[[Submit Talk]](https://whyr.pl/2019/submit/) <br>
-[[Registration and Call for Papers Details]](https://whyr.pl/2019/timeline_small.jpg) <br> 
-[[Code of Conduct 2019]](https://whyr.pl/2019/coc/)
-[[Conference Details]](https://whyr.pl/2019/onepager_small.jpg)<br>
-[[MEETINGS]](https://whyr.pl/2019/premeetings.jpg)</center> 
+
+![](konfa2019_photo.jpg)
+
+
+# Conference Details
+
+
+![](onepager_small.jpg)
+
+# Speakers
+
+![](images/speakers/jakub.png){ width=45% }
+
+Jakub Nowosad <br>
+Institute of Geoecology and Geoinformation <br>
+Adam Mickiewicz University
+
+# Registration and Call for Papers
+
+[[Register]](http://whyr.pl/2019/register/)
+[[Submit Talk]](http://whyr.pl/2019/submit/) 
+
+![](timeline_small.jpg)
+
+# Organizers
+
+![](foundation.jpg){ width=45% } ![](plinml.png){ width=38.5% }
+
+[[Why R? Foundation]](http://whyr.pl/)
+[[PLinML Society]](http://plinml.mimuw.edu.pl/) 
+
+# Sponsors
+
+## Bronze
+
+![](images/sponsors/rconsorcium.png){ width=45% } 
+
+# Pre Meetings
+
+![](premeetings.jpg)
+
+
+# Social Media
+
+<a href='http://twitter.com/whyRconf'><i class='fa fa-twitter'></i></a>&nbsp;&nbsp;<a href='http://facebook.com/whyRconf/'><i class='fa fa-facebook'></i></a>&nbsp;&nbsp;<a href='https://github.com/WhyRFoundation'><i class='fa fa-github'></i></a>&nbsp;&nbsp;<br>
+
+# Code of Conduct
+
+<div>
+Source: our code of conduct was adapted from the <a href="https://user2017.brussels/code-of-conduct/">useR! 2017 code of conduct</a>.
+
+
+All attendees, speakers, sponsors and volunteers at Why R? 2019 are required to agree to the following code of conduct. Organizers will enforce this code throughout and expect cooperation in ensuring a safe environment for all.
+
+Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual and or discriminatory images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+
+Participants asked to stop any harassing behavior are expected to comply immediately.
+
+Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Staff epresenting sponsors should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+
+Participants engaging in harassing behavior may be sanctioned in any way organizers deem appropriate, including expulsion from the conference without refund and providing details to partner institutions and events.
+
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of Why R? 2019 staff immediately. Why R? 2019 staff can be readily identified as they will be wearing distinctive Why R? 2019 arm bands.
+
+Why R? 2019 staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of Why R? 2019. We value your attendance.
+</div>
+</center>
