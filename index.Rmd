@@ -28,11 +28,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Speakers
 
-![](images/speakers/jakub.png){ width=45% }
 
-Jakub Nowosad <br>
-Institute of Geoecology and Geoinformation <br>
-Adam Mickiewicz University
+
+
+
+```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+library(dplyr)
+data.frame(
+  grafika = c('![](images/speakers/jakub_crop.gif){ width=300px }', '![](images/speakers/steph_crop.gif){ width=300px }'),
+  kto = c('Jakub Nowosad', 'Steph Locke'),
+  afiliacja = c('Institute of Geoecology and Geoinformation', 'Principal Consultant (GBR)'),
+  afiliacja2 = c('Adam Mickiewicz University', 'Locke Data')
+  
+) %>% t %>% knitr::kable(row.names = FALSE, align = 'c')
+```
+
+
+
 
 # Registration and Call for Papers
 
