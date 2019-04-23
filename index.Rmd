@@ -26,21 +26,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](onepager_small.jpg)
 
-# Speakers
-
-
-
+# Invited Speakers
 
 
 ```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
-library(dplyr)
-data.frame(
-  grafika = c('![](images/speakers/jakub_crop.gif){ width=300px }', '![](images/speakers/steph_crop.gif){ width=300px }'),
-  kto = c('Jakub Nowosad', 'Steph Locke'),
-  afiliacja = c('Institute of Geoecology and Geoinformation', 'Principal Consultant (GBR)'),
-  afiliacja2 = c('Adam Mickiewicz University', 'Locke Data')
-  
-) %>% t %>% knitr::kable(row.names = FALSE, align = 'c')
+knitr::kable(row.names = FALSE, align = 'c',
+                         
+            t(
+                data.frame(
+                grafika = c('![](images/speakers/jakub_crop.gif){ width=300px }', '![](images/speakers/steph_crop.gif){ width=300px }'),
+                kto = c('Jakub Nowosad', 'Steph Locke'),
+                afiliacja = c('Institute of Geoecology and Geoinformation', 'Principal Consultant (GBR)'),
+                afiliacja2 = c('Adam Mickiewicz University', 'Locke Data')
+                
+              )
+            )
+)
 ```
 
 
@@ -74,6 +75,19 @@ data.frame(
 # Social Media
 
 <a href='http://twitter.com/whyRconf'><i class='fa fa-twitter'></i></a>&nbsp;&nbsp;<a href='http://facebook.com/whyRconf/'><i class='fa fa-facebook'></i></a>&nbsp;&nbsp;<a href='https://github.com/WhyRFoundation'><i class='fa fa-github'></i></a>&nbsp;&nbsp;<br>
+
+# Previous Editions
+
+
+[[2017 After Movie]](https://vimeo.com/239259242) &nbsp;&nbsp; [[2017 Photos]](https://www.facebook.com/whyRconf/photos/) &nbsp;&nbsp; [[2017 Presentations]](https://github.com/WhyR2017/prezentacje)
+
+[[2018 After Movie]](https://www.youtube.com/watch?v=NNsceaqEP1w) &nbsp;&nbsp; [[2018 Photos]](https://www.facebook.com/whyRconf/photos/) &nbsp;&nbsp; [[2018 Presentations]](https://github.com/WhyR2018/presentations)
+
+```{r,echo=FALSE}
+# <iframe src="https://player.vimeo.com/video/239259242?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+# <p><a href="https://vimeo.com/239259242">Why R? 2017</a></p>
+
+```
 
 # Code of Conduct
 
