@@ -63,9 +63,14 @@ knitr::kable(row.names = FALSE, align = 'c',
 
 # Sponsors
 
+## Silver
+
+![](images/sponsors/idash.png){ width=45% } 
+
 ## Bronze
 
 ![](images/sponsors/rconsorcium.png){ width=45% } 
+![](images/sponsors/rstudio.png){ width=45% } 
 
 # Pre Meetings
 
